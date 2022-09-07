@@ -1,0 +1,74 @@
+.app__home {
+    padding: 20px 20px;
+    text-align: center;
+}
+.app__home-type {
+
+    button {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: none;
+        color: var(--white-color);
+        border-top: 2px solid var(--text-color);
+        border-left: 2px solid var(--text-color);
+        cursor: pointer;
+
+        &:active {
+            background-color: var(--secondary-background-color);
+            border-top: none;
+            border-left: none;
+        }
+    }
+
+    p {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        margin-top: 50px;
+        outline: none;
+        border: none;
+    }
+}
+
+.app__home-link {
+    margin: 50px;
+    
+    input {
+        margin: 20px 0;
+        outline: none;
+        border: none;
+        height: 30px;
+        width: 400px;
+        border-radius: 2px;
+        background-color: transparent;
+        color: var(--white-color);
+        padding: 14px;
+        
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: none;
+        color: var(--white-color);
+        border-top: 2px solid var(--text-color);
+        border-left: 2px solid var(--text-color);
+        background-color: var(--secondary-background-color);
+        cursor: pointer;
+
+        &:active {
+            border-top: none;
+            border-left: none;
+        }
+    }
+    p {
+        margin-top: 25px;
+        color: var(--green-color);
+    }
+}

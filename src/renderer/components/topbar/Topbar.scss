@@ -1,0 +1,35 @@
+.app__topbar {
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    -webkit-app-region: drag;
+    position: absolute;
+
+    img {
+        position: relative;
+        left: 0.5rem;
+        top: 5px;
+    }
+}
+
+.app__topbar-buttons {
+    -webkit-app-region: no-drag;
+    position: absolute;
+    right: 0.5rem;
+    top: 5px;
+
+    svg {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+
+        &:hover:nth-child(1) {
+            color: var(--yellow-color);
+            background-color: var(--secondary-background-color);
+        }
+        &:hover:nth-child(2) {
+            color: var(--red-color);
+            background-color: var(--secondary-background-color);
+        }
+    }
+}
