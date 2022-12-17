@@ -9,6 +9,8 @@
         position: relative;
         left: 0.5rem;
         top: 5px;
+        -webkit-app-region: no-drag;
+        cursor: pointer;
     }
 }
 
@@ -22,12 +24,16 @@
         width: 30px;
         height: 30px;
         border-radius: 5px;
-
+        
         &:hover:nth-child(1) {
-            color: var(--yellow-color);
+            color: var(--blue-color);
             background-color: var(--secondary-background-color);
         }
         &:hover:nth-child(2) {
+            color: var(--yellow-color);
+            background-color: var(--secondary-background-color);
+        }
+        &:hover:nth-child(3) {
             color: var(--red-color);
             background-color: var(--secondary-background-color);
         }
